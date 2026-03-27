@@ -1,78 +1,110 @@
-# TP5-Javascript-evenements
-Description
+# TP5 - JavaScript : Évènements
 
-Ce projet regroupe les solutions du TD n°2 dédié à l’introduction au langage JavaScript et à la manipulation des évènements DOM.
+## Description
 
-L’objectif principal de ce TP est de comprendre comment interagir avec une page web dynamique à travers :
+Ce projet regroupe les solutions du **TD n°2**, consacré à l’introduction au langage **JavaScript** et à la gestion des **évènements DOM**.
 
-la gestion des évènements (onclick)
-la manipulation du DOM (getElementById)
-le traitement des entrées utilisateur
-l’exécution de calculs en JavaScript
-Contenu du projet
-Exercice 1 : Permutation
+L’objectif principal de ce TP est d’apprendre à rendre une page web interactive en utilisant :
+
+* la gestion des évènements (`onclick`)
+* la manipulation du DOM (`getElementById`)
+* le traitement des entrées utilisateur
+* l’exécution de calculs dynamiques en JavaScript
+
+---
+
+## Contenu du projet
+
+### Exercice 1 : Permutation
 
 Permet d’échanger les valeurs de deux champs de saisie.
 
-Concepts utilisés :
+**Concepts utilisés :**
 
-Récupération des valeurs (.value)
-Manipulation du DOM
-Gestion d’évènement (onclick)
-Exercice 2 : Calculatrice simple
+* Accès aux valeurs (`.value`)
+* Manipulation du DOM
+* Gestion des évènements (`onclick`)
 
-Une calculatrice permettant d’effectuer :
+---
 
-Addition
-Soustraction
-Multiplication
-Division
+### Exercice 2 : Calculatrice simple
 
-Concepts utilisés :
+Une calculatrice permettant d’effectuer les opérations de base :
 
-parseFloat() pour convertir les entrées
-Structure conditionnelle (switch)
-Validation des données
-Gestion d’erreurs (division par zéro)
-Exercice 3 : Calcul IMC
+* Addition
+* Soustraction
+* Multiplication
+* Division
 
-Calcul de l’indice de masse corporelle avec interprétation automatique.
+**Concepts utilisés :**
 
-Formule utilisée :
+* Conversion des données avec `parseFloat()`
+* Structure conditionnelle (`switch`)
+* Validation des entrées
+* Gestion des erreurs (ex : division par zéro)
+
+---
+
+### Exercice 3 : Calcul IMC
+
+Permet de calculer l’indice de masse corporelle avec une interprétation automatique du résultat.
+
+**Formule utilisée :**
 IMC = poids / (taille × taille)
 
-Concepts utilisés :
+**Concepts utilisés :**
 
-Calcul mathématique
-Conditions (if / else)
-Affichage dynamique du résultat
-Exercice 4 : Calculatrice avancée
+* Calculs mathématiques
+* Conditions (`if / else`)
+* Affichage dynamique du résultat
 
-Calculatrice scientifique avec une interface en CSS Grid.
+---
 
-Fonctionnalités :
+### Exercice 4 : Calculatrice avancée
 
-Opérations de base (+, -, ×, ÷)
-Fonctions scientifiques :
-sin, cos, tan
-log, ln
-√, x², EXP
-Gestion des expressions avec eval()
+Calculatrice scientifique avec une interface réalisée en **CSS Grid**.
 
-Concepts utilisés :
+**Fonctionnalités :**
 
-Objet Math de JavaScript
-CSS Grid (mise en page)
-Gestion d'expressions dynamiques
-Technologies utilisées
-HTML5
-CSS3 (Grid Layout)
-JavaScript (DOM & Events)
-Exécution du projet
-Cloner le repository :
+* Opérations de base (+, -, ×, ÷)
+* Fonctions scientifiques :
+
+  * `sin`, `cos`, `tan`
+  * `log`, `ln`
+  * `√`, `x²`, `EXP`
+* Évaluation d’expressions avec `eval()`
+
+**Concepts utilisés :**
+
+* Objet `Math` de JavaScript
+* Mise en page avec CSS Grid
+* Gestion dynamique des expressions
+
+---
+
+## Technologies utilisées
+
+* HTML5
+* CSS3 (Grid Layout)
+* JavaScript (DOM & Events)
+
+---
+
+## Exécution du projet
+
+### 1. Cloner le repository
+
+```bash
 git clone https://github.com/TON_USERNAME/td2-javascript-events.git
-Ouvrir les fichiers dans un navigateur :
-exercice1.html
-exercice2.html
-exercice3.html
-exercice4.html
+```
+
+### 2. Lancer les fichiers
+
+Ouvrir dans un navigateur :
+
+* `exercice1.html`
+* `exercice2.html`
+* `exercice3.html`
+* `exercice4.html`
+
+
